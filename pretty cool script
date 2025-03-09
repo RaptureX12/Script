@@ -37,3 +37,10 @@ local Window = Rayfield:CreateWindow({
  local PlayerTab = Window:CreateTab("Player", 4483362458) -- Title, Image
 
  local PlayerSection = PlayerTab:CreateSection("Player")
+
+ local Button = PlayerTab:CreateButton({
+    Name = "100 speed",
+    Callback = function(game.Players.LocalPlayer.Character.Humanoid.Walkspeed = 100)
+    -- The function that takes place when the button is pressed
+    end,
+ })
