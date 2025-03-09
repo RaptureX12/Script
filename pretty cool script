@@ -36,4 +36,4 @@ local Window = Rayfield:CreateWindow({
 
  local PlayerTab = Window:CreateTab("Player", 4483362458) -- Title, Image
 
- local PlayerSection = PlayerTab:CreateSection("Player")
+ local WalkspeedSection = PlayerTab:CreateSection("Walkspeed")
