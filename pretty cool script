@@ -40,7 +40,7 @@ local Window = Rayfield:CreateWindow({
 
  local Button = PlayerTab:CreateButton({
     Name = "100 speed",
-    Callback = function(game.Players.LocalPlayer.Character.Humanoid.Walkspeed = 100)
+    Callback = function("game.LocalPlayer.Character.Humanoid = walkspeed = 100")
     -- The function that takes place when the button is pressed
     end,
  })
